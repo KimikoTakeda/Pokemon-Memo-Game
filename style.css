@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border_box;
+
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    flex-basis: 15%;
+    flex-grow: 1;
+    height: 33.33vh;
+    border: 4px solid white;
+}
+
+@media (orientation: portrait) {
+    div{
+        flex-basis: 30%;
+        height: 16.66vh;
+    }
+}
+
+
+.bulbasaur {
+    background: url("img/Bulbasaur.png") no-repeat center center;
+    background-size: contain;
+}
+
+.arcanine {
+    background: url("img/arcanine.png") no-repeat center center;
+    background-size: contain;
+}
+
+.charizard {
+    background: url("img/charizard.jpg") no-repeat center center;
+    background-size: contain;
+}
+
+.evee {
+    background: url("img/eevee.png") no-repeat center center;
+    background-size: contain;
+}
+
+.espurr {
+    background: url("img/espurr.png") no-repeat center center;
+    background-size: contain;
+}
+
+.jigglypuff {
+    background: url("img/jigglypuff.png") no-repeat center center;
+    background-size: contain;
+}
+
+.lucario {
+    background: url("img/lucario.png") no-repeat center center;
+    background-size: contain;
+}
+
+.mewmewtwo {
+    background: url("img/mewmewtwo.png") no-repeat center center;
+    background-size: contain;
+}
+
+.pikachu {
+    background: url("img/pikachu.png") no-repeat center center;
+    background-size: contain;
+}
+
+
+
+.off{
+    background-color: #eee;
+}
+
+.hidden{
+    background: url("img/pokemon.png") no-repeat center center;
+  background-size: contain;
+}
